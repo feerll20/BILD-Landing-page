@@ -71,6 +71,14 @@ a:hover {
     border: none;
     text-decoration: none;
 }
+.contact-btn-2
+{
+    background-color: #0F39D3;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    text-decoration: none;
+}
 .custom-li {
     font-weight: 700;
     padding: 0px 15px;
@@ -132,8 +140,14 @@ a:hover {
 #facts
 {
     width: 100%;
-    padding-bottom: 20%;
     background-color: #DDECFD;
+    padding-bottom: 10%;
+    border: none;
+}
+#contact-us
+{
+    width: 100%;
+    padding-top: 5%;
     border: none;
 }
 .fact-card
