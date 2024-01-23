@@ -123,13 +123,15 @@ a:hover {
     width: 80px;
     /* border: 1px solid; */
 }
-#casual-shoes
+#our-services
 {
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: %;
 }
 #separator-line
 {
-    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 
 }
 #services
