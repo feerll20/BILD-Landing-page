@@ -126,24 +126,23 @@ a:hover {
 #our-services
 {
     padding-top: 5%;
-    padding-bottom: %;
 }
 #separator-line
 {
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
 
 }
 #services
 {
     padding-top: 15%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 #facts
 {
     width: 100%;
     background-color: #DDECFD;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     border: none;
 }
 #contact-us
