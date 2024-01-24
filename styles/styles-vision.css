@@ -48,7 +48,7 @@ a:hover {
     font-weight: 1000;
 }
 .custom-navbar {
-    background-color: #0F39D3;
+    background-color: #0d6efd;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
@@ -61,10 +61,12 @@ a:hover {
 }
 .navbar-nav .nav-item .nav-link {
     color: #fff;
-    font-weight: 400;
     margin-left: 20px;
     align-items: center;
     transition: color 0.4s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d3d00f;
 }
 .navbar-nav .nav-item .nav-link.active {
     color: #FFF81D;

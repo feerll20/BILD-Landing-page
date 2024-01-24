@@ -48,7 +48,6 @@ a:hover {
     font-weight: 1000;
 }
 .custom-navbar {
-    /* background-color: #0F39D3; */
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
@@ -56,7 +55,7 @@ a:hover {
     transition: background-color 0.4s ease-in-out;
 }
 .custom-navbar.scrolled {
-    background-color: #1684FC;
+    background-color: #0d6efd;
     opacity: 0.98;
 }
 .custom-ul {
@@ -72,6 +71,12 @@ a:hover {
 }
 .navbar-nav .nav-item .nav-link.active {
     color: #FFF81D;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d3d00f;
+}
+.custom-navbar.scrolled .nav-item .nav-link:hover {
+    color: #d3d00f;
 }
 .custom-navbar.scrolled .nav-item .nav-link {
     color: #fff;
