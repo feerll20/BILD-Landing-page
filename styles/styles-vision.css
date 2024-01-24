@@ -37,7 +37,7 @@ a:hover {
 }
 /* header */
 #header {
-    height: 81.92vh;
+    height: 100vh;
     width: 100%;
     padding: 50px 0px 50px 0px;
     background-position: center;
@@ -48,16 +48,12 @@ a:hover {
     font-weight: 1000;
 }
 .custom-navbar {
-    /* background-color: #0F39D3; */
+    background-color: #0F39D3;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
     position: fixed;
     transition: background-color 0.4s ease-in-out;
-}
-.custom-navbar.scrolled {
-    background-color: #1684FC;
-    opacity: 0.98;
 }
 .custom-ul {
     text-align: center;
@@ -71,12 +67,6 @@ a:hover {
     transition: color 0.4s ease-in-out;
 }
 .navbar-nav .nav-item .nav-link.active {
-    color: #FFF81D;
-}
-.custom-navbar.scrolled .nav-item .nav-link {
-    color: #fff;
-}
-.custom-navbar.scrolled .nav-item .nav-link.active{
     color: #FFF81D;
 }
 .contact-btn {
@@ -101,18 +91,6 @@ a:hover {
 .custom-logo {
     width: 85%;
 }
-.carousel-indicators {
-    position: absolute;
-    align-items: center;
-    bottom: 1rem;
-}
-.carousel-inner .item img{
-    height: 75vh;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.5;
-
-}
 /* end header */
 /* header, casual shoes, formal shoes */
 /* .custom-highlight {
@@ -135,88 +113,10 @@ a:hover {
     background-color: transparent;
     border: none;
 }
-/* end casual shoes, formal shoes */
 
-/* casual shoes */
-.custom-bg {
-    height: 350px;
-    background: #F1F1F1;
-    border-radius: 12px;
-}
-/* end casual shoes */
-
-/* services section */
-.custom-img-width {
-    width: 80px;
-    /* border: 1px solid; */
-}
-#our-services {
-    padding-top: 10%;
-}
-#separator-line {
-    padding-top: 15%;
-    padding-bottom: 10%;
-
-}
-#services {
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-#facts {
-    text-align: center;
-    height: 100vh;
-    width: 100%;
-    background-color: #DDECFD;
-    border: none;
-}
-#contact-us h2{
-    width: 100%;
-    padding-top: 10%;
-    border: none;
-}
 .fact-card {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
     border: none;
-}
-.quote-request{
-    text-align: center;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 70px;
-    text-decoration: none;
-}
-.quote-request{
-    text-align: center;
-    margin-top: 3px;
-    font-size: 30px;
-    height: 5px;
-    background-color: #FFF81D;
-    border-radius: 5%;
-    position: relative;
-    animation: animate 3s linear infinite;
-}
-.wrapper{
-    text-align: center;
-    color: #000;
-    /* align-items: center; */
-    /* padding: 35px; */
-    text-decoration: none;
-    padding-top: 30px;
-    font-size: 30px;
-    /* width: 300px; */
-    height: 100px;
-    background-color: #FFF81D;
-    border-radius: 5%;
-    position: relative;
-    animation: animate 3s linear infinite;
-}
-@keyframes animate{
-    0%{box-shadow: 0 0 0 0 rgb(251, 255, 0) , 0 0 0 0 rgb(251, 255, 0, 0.7)}
-    40%{box-shadow: 0 0 0 50px rgb(251, 255, 0, 0) , 0 0 0 0 rgb(251, 255, 0, 0.7)}
-    80%{box-shadow: 0 0 0 50px rgb(2251, 255, 0, 0) , 0 0 0 30px rgb(251, 255, 0, 0)}
-    100%{box-shadow: 0 0 0 0 rgb(251, 255, 0, 0) , 0 0 0 30px rgb(251, 255, 0, 0)}
 }
 .custom-service-card  {
     border-radius: 10px;

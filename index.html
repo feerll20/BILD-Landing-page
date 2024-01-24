@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     <title>BILD | Almacenes y Logistica</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -34,16 +31,16 @@
                             <a class="nav-link" href="#">Iniciar sesión</a>
                         </li>
                         <li class="nav-item custom-li">
-                            <a class="nav-link active"  aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active"  aria-current="page" href="Inicio.html">Inicio</a>
                         </li>
                         <li class="nav-item custom-li">
-                            <a class="nav-link " href="#">Nosotros</a>
+                            <a class="nav-link " href="Nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item custom-li">
-                            <a class="nav-link " href="#">Misión</a>
+                            <a class="nav-link " href="Mision.html">Misión</a>
                         </li>
                         <li class="nav-item custom-li">
-                            <a class="nav-link" href="#">Visión</a>
+                            <a class="nav-link" href="Vision.html">Visión</a>
                         </li>
                     </ul>
                     <a href="https://api.whatsapp.com/send?phone=528116110594&text=%C2%A1Hola!,%20me%20gustaria%20hacer%20una%20cotizaci%C3%B3n%20para%20almacenamiento" class="nav-btn btn-primary rounded-3 contact-btn" role="button">Contáctanos</a>
@@ -267,14 +264,17 @@
                     </div>
                     <div class="col-lg-4 p-5 mt-3 justify-content-around order-lg-2">
                         <div class="row pt-5 mt-5">
-                            <h2>
+                            <h2 class="mb-4">
                                 Almacenamiento optimizado por automatización
                             </h2>
-                            <p class="justify-content-around">
+                            <p class="justify-content-around pb-5">
                                 The purpose of this paper is to find out what kind of medicine is 
                                 to cure the disease, and to combine it with other things
                             </p>
-                            <button type="button" class="btn btn-primary p-3 mt-5 rounded-3" style="color: #000; background-color: #FFF81D; border: none;">Solicitar Cotización</button>
+                            <a type="button" href="https://google.com" class="col-md-12 p-5 mb-5 quote-request"> 
+                                ¡UNETE YA!
+                            </a>
+                            <!-- <button type="button" class="btn btn-primary p-3 mt-5 rounded-3" style="color: #000; background-color: #FFF81D; border: none;">Solicitar Cotización</button> -->
                         </div> 
                         </div>                       
                     </div>
@@ -282,16 +282,20 @@
             </div>
         </section>
         <!-- end services section -->
+    </main>
+    <!-- end main -->
 
-        <!-- facts section -->
-        <section id="facts" class="p-5 mt-5 mb-5">
+
+    <!-- facts section -->
+    <section id="facts" class="p-5 mt-5 mb-5">
+        <main>
             <h2 class="row mb-5 d-flex justify-content-center align-items-center" style="color: #3D4FF3;">Siempre innovando y mejorando <br>nuestros procesos</br></h2>
             <h5 class="mb-5">Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor 
                 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ut enim ad minim.
             </h5>
-            <div class="row row-cols-1 row-cols-md-5 offset-md-2 g-4 mt-3 mb-5">
+            <div class="row row-cols-1 row-cols-md-5 offset-md-2 g-4 mt-3 mb-5 pb-5">
                 <div class="col">
                     <div class="card shadow fact-card">
                         <div class="card-body">
@@ -340,15 +344,14 @@
                     </div>
                 </div>
             </div>
-            <a type="button" href="https://google.com" class="wrapper"> 
-                <div class="pulse">¡COTIZA YA!
-                </div>
-            </a>
-        </section>
-        <!-- end facts section -->
+            <a type="button" href="https://google.com" class="col-md-6 mt-4 wrapper"> SOLICITAR COTIZACIÓN</a>
+        </main>
+    </section>
+    <!-- end facts section -->
 
-        <!-- contact us section -->
-        <section id="contact-us" class="mt-5 mb-5">
+    <!-- contact us section -->
+    <main class="container main-bottom align-items-center">
+        <section id="contact-us" class="p-5 mt-5 mb-5">
             <h2 class="d-block text-uppercase" style="text-align: center;">Contáctanos</h2>
             <div class="row pt-5 d-flex justify-content-center align-items-center">
                 <div class="row">
@@ -371,9 +374,8 @@
                 </div>
             </div>
         </section>
-        <!-- end contact us section -->
     </main>
-    <!-- end main -->
+    <!-- end contact us section -->
 
     <!-- footer -->
     <footer id="footer" class="text-center text-lg-start mt-5" style="background-color: #DDECFD;">
@@ -462,7 +464,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <!-- end script -->
 </body>
-
 <script>
     document.addEventListener('scroll', () => {
         const navBar = document.querySelector(".custom-navbar");
