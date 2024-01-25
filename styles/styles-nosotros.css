@@ -37,7 +37,11 @@ a:hover {
 }
 /* header */
 #header {
-    height: 100vh;
+    background-color: #0F39D3;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 65vh;
     width: 100%;
     padding: 50px 0px 50px 0px;
     background-position: center;
@@ -95,9 +99,22 @@ a:hover {
 }
 /* end header */
 /* header, casual shoes, formal shoes */
-/* .custom-highlight {
-    color: #fff;
-} */
+#Nosotros-description {
+    align-items: center;
+    padding-bottom: 5%;
+}
+#our-team {
+    padding-top: 5%;
+}
+.nosotros_img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.contact-data{
+    text-align: right;
+}
 .custom-btn {
     background-color: #3D4FF3;
     padding: 10px;
@@ -105,11 +122,20 @@ a:hover {
 }
 /* end header, casual shoes, formal shoes */
 /* casual shoes, formal shoes */
-.custom-card {
-    border-radius: 20px;
-    padding: 12px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-    border: none;
+.card_img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+}
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_info {
+    padding-bottom: 20px;
 }
 .custom-footer {
     background-color: transparent;
