@@ -37,9 +37,9 @@ a:hover {
 }
 /* header */
 #header {
-    height: 81.92vh;
+    height: auto;
     width: 100%;
-    padding: 50px 0px 50px 0px;
+    padding: 80px 0px 80px 0px;
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -89,6 +89,13 @@ a:hover {
     color: #000;
     padding: 10px 30px;
     margin-left: 40px;
+    border: none;
+    text-decoration: none;
+}
+.header-contact-btn{
+    background-color: #FFF81D;
+    color: #000;
+    padding: 10px 30px;
     border: none;
     text-decoration: none;
 }
@@ -156,11 +163,10 @@ a:hover {
     /* border: 1px solid; */
 }
 #our-services {
-    padding-top: 10%;
+    padding-top: 80px;
 }
 #separator-line {
-    padding-top: 15%;
-    padding-bottom: 10%;
+    padding: 80px 0px 80px 0px;
 }
 #services {
     padding-top: 15%;
@@ -168,19 +174,31 @@ a:hover {
 }
 #facts {
     text-align: center;
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: #DDECFD;
     border: none;
 }
-#contact-us h2{
-    width: 100%;
+#workflow{
+    align-items: center;
+    justify-content: center;
     padding-top: 10%;
+}
+#contact-us{
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 10%;
     border: none;
 }
 .fact-card {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: auto;
     border: none;
+}
+.flow-step{
+    align-items: center;
+    justify-content: center;
 }
 .quote-request{
     text-align: center;
@@ -200,6 +218,15 @@ a:hover {
     border-radius: 5%;
     position: relative;
     animation: animate 3s linear infinite;
+}
+.join-us-btn{
+    text-align: center;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    text-decoration: none;
 }
 .wrapper{
     text-align: center;
