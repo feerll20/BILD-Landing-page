@@ -208,13 +208,26 @@ a:hover {
     align-items: center;
     padding: 70px;
     text-decoration: none;
-}
-.quote-request{
-    text-align: center;
     margin-top: 3px;
     font-size: 30px;
     height: 5px;
     background-color: #FFF81D;
+    border-radius: 5%;
+    position: relative;
+    animation: animate 3s linear infinite;
+}
+.quote-request:hover{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    text-decoration: none;
+    margin-top: 3px;
+    font-size: 30px;
+    height: 5px;
+    background-color: #e9e200;
     border-radius: 5%;
     position: relative;
     animation: animate 3s linear infinite;
@@ -245,6 +258,18 @@ a:hover {
     40%{box-shadow: 0 0 0 50px rgb(251, 255, 0, 0) , 0 0 0 0 rgb(251, 255, 0, 0.7)}
     80%{box-shadow: 0 0 0 50px rgb(2251, 255, 0, 0) , 0 0 0 30px rgb(251, 255, 0, 0)}
     100%{box-shadow: 0 0 0 0 rgb(251, 255, 0, 0) , 0 0 0 30px rgb(251, 255, 0, 0)}
+}
+.wrapper:hover{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 30px;
+    height: 100px;
+    background-color: #e9e200;
+    border-radius: 5%;
+    position: relative;
+    animation: animate 3s linear infinite;
 }
 .custom-service-card  {
     border-radius: 10px;

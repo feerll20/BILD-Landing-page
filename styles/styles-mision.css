@@ -37,11 +37,10 @@ a:hover {
 }
 /* header */
 #header {
-    background-color: #0a5dd9;
     align-items: center;
     text-align: center;
     color: white;
-    height: 65vh;
+    height: auto;
     width: 100%;
     padding: 50px 0px 50px 0px;
     background-position: center;
