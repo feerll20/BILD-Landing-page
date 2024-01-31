@@ -19,6 +19,12 @@ h2 {
     font-size: 48px;
     color: #363958;
 }
+h3 {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 1000;
+    color: #363958;
+}
 h4 {
     font-family: 'Roboto';
     font-size: 24px;
@@ -169,11 +175,12 @@ a:hover {
     padding: 80px 0px 80px 0px;
 }
 #services {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 20%;
+    padding-bottom:10%;
 }
 #facts {
     text-align: center;
+    padding: 80px;
     height: auto;
     width: 100%;
     background-color: #DDECFD;
@@ -182,8 +189,8 @@ a:hover {
 
 #contact-us{
     width: 100%;
-    padding-top: 230px;
-    padding-bottom: 80px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     border: none;
 }
 .fact-card {
@@ -306,11 +313,13 @@ a:hover {
 #workflow{
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 13%;
+    height: auto;
 }
 
 .card-body .btn-primary {
     color: #0d6efd;
+    text-align: center;
     background-color: white;
     border: none;
 }
@@ -390,6 +399,7 @@ a:hover {
 .frontside .card,
 .backside .card {
     min-height: 312px;
+    border: none;
 }
 
 .backside .card a {
@@ -409,11 +419,29 @@ a:hover {
 
 .frontside .card .card-body {
     background-color:#0d6efd;
+    border-radius: 50%;
     border: none;
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+.backside .card .card-body {
+    background-color:#fff;
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
 
 /* end workflow */
+
+/* operations */
+#operations {
+    padding-top: 13%;
+    padding-bottom: 10%;
+}
+
+.card-operations {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 50%;
+}
+/* end operations */
 
 /* footer */
 #footer {
