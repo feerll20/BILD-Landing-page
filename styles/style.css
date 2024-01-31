@@ -58,11 +58,6 @@ a:hover {
     padding-bottom: 10px;
     align-items: center;
     position: fixed;
-    transition: background-color 0.4s ease-in-out;
-}
-.custom-navbar.scrolled {
-    background-color: #0d6efd;
-    opacity: 0.98;
 }
 .custom-ul {
     text-align: center;
@@ -118,18 +113,6 @@ a:hover {
 }
 .custom-logo {
     width: 85%;
-}
-.carousel-indicators {
-    position: absolute;
-    align-items: center;
-    bottom: 1rem;
-}
-.carousel-inner .item img{
-    height: 75vh;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.5;
-
 }
 /* end header */
 /* header, casual shoes, formal shoes */
@@ -308,6 +291,12 @@ a:hover {
     border: none;
 }
 /* end services section */
+
+/* best option section*/
+#bestOption {
+    padding-top: 10%;
+}
+/* end best option section*/
 
 /* workflow */
 #workflow{
