@@ -177,7 +177,7 @@ a:hover {
 
 #contact-us{
     width: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
     border: none;
 }
@@ -491,3 +491,69 @@ footer h5 {
     border-color: #4481eb;
   }
 /* end footer */
+
+@media screen and (max-width: 870px){
+
+    #header {
+        height: auto;
+        width: auto;
+        padding: 80px 20px 80px 20px;
+        background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.6), rgba(0,0,0,2)), url('resources/images/warehouse-slider-2-1.jpeg');
+        /* background-position: center;
+        background-size: cover;
+        object-fit: cover; */
+    }
+
+    .custom-navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        position: fixed;
+        background-color: #0d6efd;
+    }
+
+    #our-services{
+        padding: 100px 30px 30px 30px;;
+    }
+
+    #bestOption{
+        padding: 100px 30px 30px 30px;;
+    }
+
+    #facts{
+        padding: 100px 30px 30px 30px;;
+    }
+
+    #workflow{
+        padding: 100px 30px 30px 30px;;
+    }
+
+    #operations{
+        padding: 10px 0px 30px 0px;;
+    }
+
+    #operations .title{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 100px 30px 30px 30px;;
+    }
+
+    .ops-paragraph {
+        width: 100%;
+        margin-left: 0;
+        padding: 5px 10px 30px 30px;;
+    }
+
+    .ops-image{
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px 30px 10px;
+    }
+
+    #contact-us{
+        padding: 100px 10px 30px 10px;;
+
+    }
+    
+}
