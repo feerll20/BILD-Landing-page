@@ -26,7 +26,7 @@
             <div class="container container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <img class="img-responsive custom-logo" src="resources/images/BILD-Logo-Inicio.png" alt="BILD-Logo-Inicio LOGO">
+                        <img class="img-responsive custom-logo" src="resources/images/Bild-nav.png" alt="BILD-Logo-Inicio LOGO">
                     </a>
                     <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -49,14 +49,16 @@
                         <li class="nav-item custom-li">
                             <a class="nav-link" href="Mision.html">Visión</a>
                         </li>
+                        <li class="nav-item custom-li">
+                            <a class="nav-link btn-warning rounded-3" href="https://api.whatsapp.com/send?phone=528116110594&text=%C2%A1Hola!,%20me%20gustaria%20hacer%20una%20cotizaci%C3%B3n%20para%20almacenamiento" style="background-color: #FFF81D; color: #000;" target="_blank">Contáctanos</a>
+                        </li>
                     </ul>
-                    <a href="https://api.whatsapp.com/send?phone=528116110594&text=%C2%A1Hola!,%20me%20gustaria%20hacer%20una%20cotizaci%C3%B3n%20para%20almacenamiento" class="nav-btn btn-primary rounded-3 contact-btn" role="button" target="_blank">Contáctanos</a>
                 </div>
             </div>
         </nav>
-        <div class="col-md-9 offset-md-1">
-            <h1 class="title col-md-8" style="color: white; padding-top: 13%;">BILD te respalda</h1>
-            <h4 class="pt-2" style="color: white; padding-top: 7%; padding-bottom: 3%;">
+        <div class="col-md-8 offset-md-1 g-4">
+            <h1 class="title" style="color: white; padding-top: 10%;">BILD te respalda</h1>
+            <h4 class="pt-2" style="color: white; padding-top: 7%; padding-bottom: 5%;">
                 Somos una empresa dedicada al almacenamiento en bodegas industriales, ofreciendo servicios automatizados 
                 para el seguimiento en tiempo real de la logistica que nuestros clientes necesitan para estar al tanto del progreso 
                 de los procesos de entrada y salida de su mercancia, monitoreo de inventarios, etc...
@@ -68,11 +70,11 @@
     <!-- end header -->
 
     <!-- main -->
-    <main class="container align-items-center">
+    <main class="container">
         <!-- Nuestros servicios section -->
         <section id="our-services" class="mt-5">
-            <h2 class="row d-flex pb-4 justify-content-center align-items-center">Nuestros Servicios</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <h2 class="d-block pb-4" style="text-align: center;">Nuestros Servicios</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
                 <div class="col">
                     <div class="card h-100 shadow custom-card justify-content-center align-items-center">
                         <img src="resources/images/tarima.png" class="card-img-top pt-3 pb-2" style="width: 30%;" alt="...">
@@ -101,12 +103,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- end nuestros servicios section -->
-
-        <!-- nuestros servicios 2 section -->
-        <section id="our-services-2" class="mt-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row g-4">
                 <div class="col">
                     <div class="card h-100 shadow custom-card justify-content-center align-items-center">
                         <img src="resources/images/logistica.png" class="card-img-top pt-3 pb-2" style="width: 30%;" alt="...">
@@ -135,12 +132,11 @@
                     </div>
                 </div>
             </div>
+            <div style="padding-top: 7%;">
+                <hr width="100%;" color="#363958" size="4">
+            </div>
         </section>
-        <!-- end Nuestros servicios 2 section -->
-        
-        <section id="separator-line">
-            <div class="row card d-flex justify-content-center align-items-center"></div>
-        </section>
+        <!-- end nuestros servicios section -->
         
         <!-- BILD es tu mejor opcion section-->
         <section id="bestOption">
@@ -336,7 +332,11 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <a type="button" href="https://google.com" class="col-md-6 mt-4 wrapper"> SOLICITAR COTIZACIÓN</a>
+                <div class="row justify-content-center">
+                    <a type="button" href="https://google.com" class="col-md-6 p-5 mb-5 quote-request"> 
+                        SOLICITAR COTIZACIÓN
+                    </a>
+                </div>          
             </div>
     </section>
     <!-- end facts section -->
@@ -563,11 +563,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="col-md-8">
-                        <div class="card-operations" style="width: auto; height: auto;">
-                            <div class="card-img">
-                                <img src="resources/images/flow-image.png" style="width: 150%;" alt="...">
-                            </div>
+                    <div class="col-md-12">
+                        <div class="card-img">
+                            <img src="resources/images/flow-image.png" style="width: 100%;" alt="operations">
                         </div>
                     </div>      
                 </div>
@@ -604,7 +602,7 @@
     <footer id="footer" class="text-center text-lg-start mt-5" style="background-color: #DDECFD;">
         <div class="container p-4">
             <div class="row">
-                <div class="col-lg-4 col-md-12 mb-2 mb-md-0">
+                <div class="col-lg-4 mb-2">
                     <a class="navbar-brand" href="#">
                         <img class="img-responsive custom-logo" src="resources/images/BILD-Logo-Inicio.png"  style="width: auto;" alt="BILD-Logo-Inicio LOGO">
                     </a>
@@ -624,49 +622,34 @@
                         <p style="color: #363958;">Bild | Almacenamiento y Logística</p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                    <div class="row">
-                        <div>
-                            <div class="contact-data">
-                                <div class="row pb-4" style="align-items: center;">
-                                    <div class="col-md-2">
-                                        <div class="card contact-card justify-content-center align-items-center">
-                                            <i class="fa fa-phone" style="padding: 15px; color: #fff; font-size: 15px;"></i>
-                                        </div>
-                                        <!-- <img src="resources/images/image 12.png" class="card-img-top" style="width: 80%;" alt="..."> -->
-                                    </div>
-                                    <div class="col-md-10">
-                                        <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">(33) 2143 - 0313</a>
-                                    </div>
-                                </div>
-                                <div class="row pb-4">
-                                    <div class="col-md-2">
-                                        <div class="card contact-card justify-content-center align-items-center">
-                                            <i class="fa fa-envelope" style="padding: 15px; color: #fff; font-size: 15px;"></i>
-                                        </div>
-                                        <!-- <img src="resources/images/image 12.png" class="card-img-top" style="width: 80%;" alt="..."> -->
-                                    </div>
-                                    <div class="col-md-10">
-                                        <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">contacto@bild.com</a>
-                                    </div>
-                                </div>
-                                <div class="row pb-4">
-                                    <div class="col-md-2">
-                                        <div class="card contact-card justify-content-center align-items-center">
-                                            <i class="fa  fa-map-marker" style="padding: 15px; color: #fff; font-size: 15px;"></i>
-                                        </div>
-                                        <!-- <img src="resources/images/image 12.png" class="card-img-top" style="width: 80%;" alt="..."> -->
-                                    </div>
-                                    <div class="col-md-10">
-                                        <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">
-                                            Av. del rincon 344-B, 45187
-                                            <br> Belenes, Zapopan, Jalisco, México</br>
-                                        </a>                                    
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="row mb-3 g-5 justify-content-center align-items-center">
+                        <div class="col-2 card contact-card justify-content-center align-items-center">
+                            <i class="fa fa-phone" style="padding: 15px; color: #fff; font-size: 15px;"></i>
+                        </div>
+                        <div class="col-6">
+                            <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">(33) 2143 - 0313</a>
                         </div>
                     </div>
+                    <div class="row mb-3 g-5 justify-content-center align-items-center">
+                        <div class="col-2 card contact-card justify-content-center align-items-center">
+                            <i class="fa fa-envelope" style="padding: 15px; color: #fff; font-size: 15px;"></i>
+                        </div>
+                        <div class="col-6">
+                            <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">contacto@bild.com</a>
+                        </div>
+                    </div>
+                    <div class="row mb-3 g-5 justify-content-center align-items-center">
+                        <div class="col-2 card contact-card justify-content-center align-items-center">
+                            <i class="fa  fa-map-marker" style="padding: 15px; color: #fff; font-size: 15px;"></i>
+                        </div>
+                        <div class="col-6">
+                            <a href="https:goog.com" style="color: #0d6efd; text-decoration: none;">
+                                Av. del rincon 344-B, 45187
+                                <br> Belenes, Zapopan, Jalisco, México</br>
+                            </a>                                                            
+                        </div>
+                    </div>                   
                 </div>
                 <div class="col-md-3">
                     <p style="color: #363958;">
@@ -674,39 +657,24 @@
                         los beneficios que BILD puede ofrecerte para que te 
                         enfoques todo tu esfuerzo en tus ventas.
                     </p>
-                    <div class="row" style="padding-top: 10px;">
-                        <div class="col-md-3">
-                            <div class="card h-100 social-card justify-content-center align-items-center">
-                                <button type="button" class="btn btn-primary p-1" style="border-radius: 50%;">
-                                    <i class="fa fa-facebook" style="padding: 12px; color: #fff; font-size: 20px;"></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card h-100 social-card justify-content-center align-items-center">
-                                <button type="button" class="btn btn-primary p-1" style="border-radius: 50%;">
-                                    <i class="fa fa-twitter" style="padding: 12px; color: #fff; font-size: 20px;"></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card h-100 social-card justify-content-center align-items-center">
-                                <button type="button" class="btn btn-primary p-1" style="border-radius: 50%;">
-                                    <i class="fa fa-instagram" style="padding: 12px; color: #fff; font-size: 20px;"></i> 
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card h-100 social-card justify-content-center align-items-center">
-                                <button type="button" class="btn btn-primary p-1" style="border-radius: 50%;">
-                                    <i class="fa fa-whatsapp" style="padding: 12px; color: #fff; font-size: 20px;"></i> 
-                                </button>
-                            </div>
-                        </div>
+                    <div class="social-media justify-content-center">
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-whatsapp"></i>
+                        </a>
                     </div>
-                    <!-- <img src="resources/images/socialmedia.png" style="width: 50%;" alt="social media"> -->
                 </div>
             </div>
+
+
         </div>
         <div class="custom-footer-margin">
             <div class="pt-3 container text-center">
