@@ -37,15 +37,9 @@ a:hover {
 }
 /* header */
 #header {
-    align-items: center;
-    text-align: center;
-    color: white;
     height: auto;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
+    width: auto;
+    padding: 80px 100px 80px 100px;
 }
 #header span {
     font-weight: 1000;
@@ -95,7 +89,7 @@ a:hover {
     padding: 0px 15px;
 }
 .custom-logo {
-    width: 85%;
+    width: 25%;
 }
 /* end header */
 /* header, casual shoes, formal shoes */
@@ -109,6 +103,15 @@ a:hover {
 }
 /* end header, casual shoes, formal shoes */
 /* casual shoes, formal shoes */
+.main-title{
+    color: white; 
+    padding: 120px 10px 30px 10px;
+}
+.main-paragraph{
+    color: white; 
+    text-align: center;
+
+}
 .card-main {
     border-radius: 20px;
     background-color: transparent;
@@ -168,3 +171,30 @@ footer h5 {
     text-decoration: none;
 }
 /* end footer */
+
+@media screen and (max-width: 870px){
+
+    #header {
+        height: auto;
+        width: auto;
+        padding: 80px 30px 80px 30px;
+        /* background-position: center; */
+        background-size: cover;
+        object-fit: cover;
+    }
+    .main-title{
+        text-align: center;
+        padding-top: 50px; 
+    }
+    .main-paragraph{
+        color: white; 
+    }
+    .contact-us{
+        padding: 0px 10px 30px 10px;
+        margin: 0;
+    }
+    .contact-data{
+        padding: 0px 10px 30px 10px;
+        text-align: center;
+    }
+}

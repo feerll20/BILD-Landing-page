@@ -497,11 +497,10 @@ footer h5 {
     #header {
         height: auto;
         width: auto;
-        padding: 80px 20px 80px 20px;
-        background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.6), rgba(0,0,0,2)), url('resources/images/warehouse-slider-2-1.jpeg');
-        /* background-position: center;
+        padding: 80px 30px 80px 30px;
+        /* background-position: center; */
         background-size: cover;
-        object-fit: cover; */
+        object-fit: cover;
     }
 
     .custom-navbar {
@@ -509,15 +508,15 @@ footer h5 {
         padding-bottom: 10px;
         align-items: center;
         position: fixed;
-        background-color: #0d6efd;
+        background-color: transparent;
     }
 
     .navbar-light .navbar-toggler{
-        border-color: #0d6efd;
+        border-color: transparent;
     }
 
     #our-services{
-        padding: 100px 30px 30px 30px;;
+        padding: 60px 30px 30px 30px;;
     }
 
     #bestOption{
