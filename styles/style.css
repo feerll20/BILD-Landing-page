@@ -424,6 +424,65 @@ a:hover {
 
 /* end workflow */
 
+/* contact us */
+form.contact-us-form {
+    padding: 10px 100px 30px 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #DDECFD;
+    border-color: #0d6efd;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+  }
+  
+  .input-field i {
+    text-align: center;
+    line-height: 55px;
+    background-color: none;
+    color: #0d6efd;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+  
+  .input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #0d6efd;
+  }
+  
+  .input-field input::placeholder {
+    color: #363958;
+    font-weight: 500;
+  }
+  .btn {
+    width: 150px;
+    background-color: #0d6efd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+/*end contact us */
+
 /* operations */
 #operations {
     padding-top: 13%;
@@ -508,7 +567,7 @@ footer h5 {
         padding-bottom: 10px;
         align-items: center;
         position: fixed;
-        background-color: transparent;
+        background-color: #0d6efd;
     }
 
     .navbar-light .navbar-toggler{
@@ -529,6 +588,13 @@ footer h5 {
 
     #workflow{
         padding: 100px 30px 30px 30px;;
+    }
+
+    form.contact-us-form {
+        width: 100%;
+        padding: 10px 15px 20px 15px;
+        justify-content: center;
+        align-items: center;
     }
 
     #operations{
