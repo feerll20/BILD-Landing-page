@@ -398,7 +398,7 @@ a:hover {
 
 .backside .card a {
     font-size: 18px;
-    color: #0d6efd !important;
+    color: #fff !important;
 }
 
 .frontside .card .card-title,
@@ -419,9 +419,16 @@ a:hover {
 }
 .backside .card .card-body {
     background-color:#fff;
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    /* box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
 }
 
+.social-icons-list{
+    top: 70%;
+}
+
+.list-inline-item:not(:last-child){
+    margin-right: 0.01rem;
+}
 /* end workflow */
 
 /* contact us */

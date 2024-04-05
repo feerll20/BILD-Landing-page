@@ -27,6 +27,10 @@ input {
   left: 0;
 }
 
+.bild-logo{
+  padding-bottom: 50px; 
+}
+
 .signin-signup {
   position: absolute;
   top: 50%;
@@ -37,6 +41,14 @@ input {
   display: grid;
   grid-template-columns: 1fr;
   z-index: 5;
+}
+
+.signin-signup .inicio-link{
+  padding-top: 30px;
+  color: #0d6efd;
+  text-decoration: solid;
+  font-weight: 1000px;
+  font-family: 'Roboto', sans-serif;
 }
 
 form {
