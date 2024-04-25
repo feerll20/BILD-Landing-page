@@ -75,14 +75,27 @@ a:hover {
 .navbar-nav .nav-item .nav-link:hover {
     color: #d3d00f;
 }
-
-.contact-btn {
+.navbar-contact-btn {
     background-color: #FFF81D;
-    color: #000;
-    padding: 10px 30px;
+    color: #363958;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    height:10px;
+    width:100px;
     margin-left: 40px;
-    border: none;
+    border-radius:260px;
+    text-align: center;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    animation: animate 3s linear infinite;
+}
+.navbar-contact-btn:hover{
+    color: #363958;
+    background-color: #e9e200;
+    animation: animate 3s linear infinite;
 }
 .header-contact-btn{
     background-color: #FFF81D;
@@ -97,7 +110,7 @@ a:hover {
     padding: 0px 15px;
 }
 .custom-logo {
-    width: 25%;
+    width: 45%;
 }
 /* end header */
 /* header, casual shoes, formal shoes */
