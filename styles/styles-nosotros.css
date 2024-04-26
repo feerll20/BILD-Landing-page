@@ -114,7 +114,12 @@ a:hover {
     border: none;
     text-decoration: none;
 }
-
+.ten-years{
+    text-align: right;
+}
+.experience-info{
+    padding-top: 40px;
+}
 .custom-li {
     padding: 0px 15px;
 }
@@ -377,6 +382,15 @@ footer h5 {
         border-color: transparent;
         padding-left: 50px;
         color: transparent
+    }
+    .ten-years{
+        width: 100%;
+        text-align: center;
+    }
+    .experience-info{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     #Nosotros-description{
         padding: 30px 30px 80px 30px; 
