@@ -1,6 +1,6 @@
 body {
     font-family: 'system-ui', sans-serif;
-    background-color: #fff;
+    background-color: #DDECFD;
 }
 div {
     display: block;
@@ -9,6 +9,7 @@ div {
 h1 {
     font-family: 'system-ui';
     font-size: 48px;
+    font-weight: 200;
     color: #363958;
     padding: 0px;
     margin: 0px;
@@ -46,7 +47,7 @@ a:hover {
 #header {
     height: auto;
     width: auto;
-    padding: 80px 100px 80px 100px;
+    padding: 130px 100px 80px 100px;
     /* background-position: center;
     background-size: cover;
     object-fit: cover; */
@@ -122,6 +123,16 @@ a:hover {
     width: 30%;
 }
 /* end header */
+#quotes p{
+    font-family: 'system-ui';
+    font-size: 28px;
+    color: #363958;
+    font-weight: 300;
+}
+#quotes img{
+    height: 30px;
+    position: relative;
+}
 /* header, casual shoes, formal shoes */
 .nosotros-title{
     color: white; 
@@ -144,44 +155,11 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
-.banner-contact-btn{
-    display: flex;
-    color: #0d6efd;
-    font-size: 16px;
-    font-weight: 600;
-    height:70px;
-    width:200px;
-    background:white;
-    border-radius:360px;
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 10px 30px 10px;
-    animation: animate 3s linear infinite;
-}
-.banner-contact-btn:hover{
-    color: #363958;
-    background-color: #DDECFD;
-    animation: animate 3s linear infinite;
-}
-.mision-desc{
-    padding-top: 100px;
-    text-align: left; 
-    color: #363958; 
-    font-weight: 700;
-}
-.vision-desc{
-    padding-top: 70px;
-    text-align: right; 
-    color: #363958; 
-    font-weight: 700;
-}
 #contact-us{
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .contact-data{
-    padding-right: 80px;
+    padding-right: 40px;
     text-align: right;
 }
 .custom-btn {
@@ -241,64 +219,64 @@ a:hover {
     border: none;
 }
 .contact-container{
-    padding-right: 80px;
+    padding-right: 20px;
 }
 form.contact-us-form {
-    padding: 10px 50px 30px 50px;
+    padding: 30px 50px 60px 50px;
     justify-content: center;
     align-items: center;
   }
-  .input-field {
-    max-width: 380px;
-    width: 100%;
-    background-color: #DDECFD;
-    border-color: #0d6efd;
-    margin: 10px 0;
-    height: 55px;
-    border-radius: 55px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    padding: 0 0.4rem;
-    position: relative;
-  }
-  
-  .input-field i {
-    text-align: center;
-    line-height: 55px;
-    background-color: none;
-    color: #0d6efd;
-    transition: 0.5s;
-    font-size: 1.1rem;
-  }
-  
-  .input-field input {
-    background: none;
-    outline: none;
-    border: none;
-    line-height: 1;
-    font-weight: 600;
-    font-size: 12px;
-    color: #363958;
-  }
-  
-  .input-field input::placeholder {
-    color: #7f829e;
-    font-weight: 500;
-  }
-  .btn {
-    width: 150px;
-    background-color: #0d6efd;
-    border: none;
-    outline: none;
-    height: 49px;
-    border-radius: 49px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: 0.5s;
-  }
+.input-field {
+max-width: 760px;
+width: 45%;
+background-color: #DDECFD;
+border-color: #0d6efd;
+margin: 10px 10px;
+height: 55px;
+border-radius: 55px;
+display: grid;
+grid-template-columns: 15% 85%;
+padding: 0 0.4rem;
+position: relative;
+}
+
+.input-field i {
+text-align: center;
+line-height: 55px;
+background-color: none;
+color: #0d6efd;
+transition: 0.5s;
+font-size: 12px;
+}
+
+.input-field input {
+background: none;
+outline: none;
+border: none;
+line-height: 1;
+font-weight: 400;
+font-size: 14px;
+color: #363958;
+}
+
+.input-field input::placeholder {
+color: #7f829e;
+font-weight: 500;
+}
+.btn {
+width: 150px;
+background-color: #0d6efd;
+border: none;
+outline: none;
+height: 49px;
+border-radius: 49px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+margin: 10px 0;
+cursor: pointer;
+transition: 0.5s;
+}
 /* end services section */
 
 /* subscribe */
@@ -373,10 +351,15 @@ footer h5 {
         background-size: cover;
         object-fit: cover;
     }
-    .navbar-light .navbar-toggler{
-        border-color: transparent;
-        padding-left: 50px;
-        color: transparent
+    .head-title{
+        padding-top: 50px;
+    }
+    #quotes .info{
+        column-width: 12;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 30px 50px 30px;
     }
     #Nosotros-description{
         padding: 30px 30px 80px 30px; 
@@ -394,7 +377,7 @@ footer h5 {
     .contact-data{
         padding: 0px 10px 30px 10px;
         width: 100%;
-        margin-left: 0%;
+        margin-left: 0%;    
         text-align: center;
     }
     form {
@@ -402,21 +385,15 @@ footer h5 {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 0rem 5rem;
         transition: all 0.2s 0.7s;
         overflow: hidden;
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-      } 
-     
+    }
     .nosotros-title{
         padding-top: 50px;
     }
-
-    form.contact-us-form {
-        width: 100%;
-        padding: 30px 15px 20px 15px;
-        justify-content: center;
-        align-items: center;
-      }
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+        padding-left: 50px;
+        color: transparent
+    }
 }

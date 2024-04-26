@@ -3,12 +3,12 @@ body {
     background-color: #fff;
 }
 div {
-    display: block;
     /* border: 1px solid; */
 }
 h1 {
     font-family: 'system-ui';
     font-size: 48px;
+    font-weight: 200;
     color: #363958;
     padding: 0px;
     margin: 0px;
@@ -46,7 +46,7 @@ a:hover {
 #header {
     height: auto;
     width: auto;
-    padding: 80px 100px 80px 100px;
+    padding: 120px 100px 80px 80px;
     /* background-position: center;
     background-size: cover;
     object-fit: cover; */
@@ -124,8 +124,9 @@ a:hover {
 /* end header */
 /* header, casual shoes, formal shoes */
 .nosotros-title{
-    color: white; 
-    padding-top: 100px; 
+    color: #363958; 
+    font-weight: 700;
+    padding-top: 5d0px; 
     text-align: center;
 }
 .main-paragraph{
@@ -144,41 +145,23 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
-.banner-contact-btn{
-    display: flex;
-    color: #0d6efd;
-    font-size: 16px;
-    font-weight: 600;
-    height:70px;
-    width:200px;
-    background:white;
-    border-radius:360px;
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 10px 30px 10px;
-    animation: animate 3s linear infinite;
+#operations img{
+    width: 100%; 
+    align-items: center; 
+    padding-top: 40px;
 }
-.banner-contact-btn:hover{
-    color: #363958;
-    background-color: #DDECFD;
-    animation: animate 3s linear infinite;
+.service-info{
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
 }
-.mision-desc{
-    padding-top: 100px;
-    text-align: left; 
-    color: #363958; 
-    font-weight: 700;
-}
-.vision-desc{
-    padding-top: 70px;
-    text-align: right; 
-    color: #363958; 
-    font-weight: 700;
+#banner-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #contact-us{
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .contact-data{
     padding-right: 80px;
@@ -210,20 +193,9 @@ a:hover {
     background-color: transparent;
     border: none;
 }
-
-.fact-card {
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-    border: none;
-}
 .custom-service-card  {
     border-radius: 10px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
-    border: none;
-}
-.circle-card {
-    border-radius: 50%;
-    background-color: #0d6efd;
-    box-shadow: 0px 0px 50% rgba(0, 0, 0, 0.35);
     border: none;
 }
 .social-card {
@@ -240,65 +212,7 @@ a:hover {
     height: auto;
     border: none;
 }
-.contact-container{
-    padding-right: 80px;
-}
-form.contact-us-form {
-    padding: 10px 50px 30px 50px;
-    justify-content: center;
-    align-items: center;
-  }
-  .input-field {
-    max-width: 380px;
-    width: 100%;
-    background-color: #DDECFD;
-    border-color: #0d6efd;
-    margin: 10px 0;
-    height: 55px;
-    border-radius: 55px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    padding: 0 0.4rem;
-    position: relative;
-  }
-  
-  .input-field i {
-    text-align: center;
-    line-height: 55px;
-    background-color: none;
-    color: #0d6efd;
-    transition: 0.5s;
-    font-size: 1.1rem;
-  }
-  
-  .input-field input {
-    background: none;
-    outline: none;
-    border: none;
-    line-height: 1;
-    font-weight: 600;
-    font-size: 12px;
-    color: #363958;
-  }
-  
-  .input-field input::placeholder {
-    color: #7f829e;
-    font-weight: 500;
-  }
-  .btn {
-    width: 150px;
-    background-color: #0d6efd;
-    border: none;
-    outline: none;
-    height: 49px;
-    border-radius: 49px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: 0.5s;
-  }
+
 /* end services section */
 
 /* subscribe */
@@ -361,6 +275,27 @@ footer h5 {
     color: #4481eb;
     border-color: #4481eb;
   }
+  .banner-contact-btn{
+    display: flex;
+    color: #0d6efd;
+    font-size: 16px;
+    font-weight: 600;
+    height:70px;
+    width:200px;
+    background:white;
+    border-radius:360px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    animation: animate 3s linear infinite;
+}
+.banner-contact-btn:hover{
+    color: #363958;
+    background-color: #DDECFD;
+    animation: animate 3s linear infinite;
+}
 /* end footer */
 
 @media screen and (max-width: 870px){
@@ -377,6 +312,20 @@ footer h5 {
         border-color: transparent;
         padding-left: 50px;
         color: transparent
+    }
+    .ops-paragraph{
+        text-align: center;
+        column-width: 12;
+        width: 100%;
+    }
+    .ops-image{
+        width: 100%;
+    }
+    #operations{
+        padding: 10px 0px 30px 0px;;
+    }
+    .service-info{
+        padding: 20px;
     }
     #Nosotros-description{
         padding: 30px 30px 80px 30px; 
