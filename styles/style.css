@@ -193,8 +193,8 @@ a:hover {
     animation: animate 3s linear infinite;
 }
 .platform-contact-btn:hover{
-    color: #363958;
-    background-color: #DDECFD;
+    color: #f7f7f7;
+    background-color: #094ec4;
     animation: animate 3s linear infinite;
 }
 #fulfill{
@@ -233,21 +233,14 @@ a:hover {
     background-color: #f7f7f7;
     border-radius: 10px;
     padding: 0;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border: none;
+    animation: animate 3s linear infinite;
+
 }
-/* .custom-card img{
-    background-color: #f7f7f7;
-    border-radius: 20px;
-    padding: 0;
+.custom-card:hover {
+    background-color: white;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-    border: none;
-} */
-.custom-card a{
-    text-decoration: none;
-    color: #0d6efd;
-    padding-top: 12px;
-    border: none;
+    animation: animate 3s linear infinite;
 }
 .custom-footer {
     background-color: transparent;
@@ -294,6 +287,16 @@ a:hover {
     font-size: 16px;
     color: #363958; 
     font-weight: 600;
+}
+.card-title-btn{
+    font-size: 20px;
+    color: #363958; 
+    font-weight: 600;
+    text-decoration: none;
+    padding: 40px 90px 110px 90px
+}
+.card-title-btn:hover{
+    color: #0d6efd;
 }
 #separator-line {
     padding: 80px 0px 80px 0px;
@@ -387,10 +390,10 @@ html, body, #map {
     border: none;
 }
 .contact-card {
-    border-radius: 50%;
-    background-color: #0d6efd;
-    width: 45px;
-    height: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border: none;
 }
 /* end services section */
@@ -581,6 +584,11 @@ form.contact-us-form {
     cursor: pointer;
     transition: 0.5s;
   }
+  .btn:hover{
+    color: #f7f7f7;
+    background-color: #094ec4;
+    animation: animate 3s linear infinite;
+  }
 /*end contact us */
 
 /* operations */
@@ -618,6 +626,13 @@ form.contact-us-form {
     animation: animate 3s linear infinite;
 }
 /* end banner */
+.contact-card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
 /* footer */
 #footer {
     background-color: #DDECFD;
@@ -692,6 +707,10 @@ footer h5 {
         width: 20%;
     }
 
+    .navbar-contact-btn {
+        margin-left: 0;
+    }
+    
     .custom-navbar {
         padding-top: 10px;
         padding-bottom: 10px;
