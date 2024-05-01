@@ -240,7 +240,7 @@ a:hover {
 .custom-card:hover {
     background-color: white;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-    animation: animate 3s linear infinite;
+    animation: animate 1s linear infinite;
 }
 .custom-footer {
     background-color: transparent;
@@ -626,11 +626,11 @@ form.contact-us-form {
     animation: animate 3s linear infinite;
 }
 /* end banner */
-.contact-card {
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    padding: 0;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+.contact-icon {
+    border-radius: 50%;
+    background-color: #0d6efd;
+    width: 45px;
+    height: auto;
     border: none;
 }
 /* footer */
